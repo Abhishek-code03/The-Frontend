@@ -1,0 +1,132 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+     <style> 
+        .red{
+            background-color: aqua;
+        }
+
+        #green{
+            background-color: aquamarine;
+        }
+        div  p{
+           color: blanchedalmond; 
+           background-color: black;
+        }
+
+        *{
+            margin:0;
+            padding:0; 
+        }
+
+        a:visited {
+            color: bisque;
+        }
+
+        a:link {
+            color: darkgreen;
+        }
+        a:active {
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: yellowgreen;
+        }
+
+        div:first-child{
+            background-color: beige;
+        }
+    </style>  
+</head>
+<body>
+<main class="one">
+<div>O my God</div>
+<div>OMG</div>
+</main>
+
+    <div class="red">
+        I am a Div!
+        <span>        <p> hey iam a coder</p>
+</span>
+    </div>
+    <div id="green"> Hi I'am Abhishek</div>
+    <div>
+<a href  ="https://www.google.com" target="_blank">Go to Google</a>
+<a href  ="https://www.facebook.com" target="_blank">Go to facebook</a>
+
+    </div>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* class */
+        .red{
+            background-color: black;
+            color: azure;
+        }
+/* id */
+        #green{
+            color: green;
+            background-color: black;
+        }
+
+        /* Child Selector  {directly first child}*/
+        div > p{
+            color: maroon;
+            background-color: blue;
+        }
+
+        /* Decendant Selector {indirectly} */ 
+
+        div p {
+            color: chocolate;
+            background-color: aliceblue;
+        }
+
+        *{margin: 0%;
+        padding: 0;}
+
+a:visited {
+    color: yellow;
+}
+ a:link {
+    color: green;
+ }
+ a:active {
+    color: red;
+ }
+ a:hover {
+    color: magenta;
+ }
+ 
+    </style>
+</head>
+<body>
+    <!-- <h1 style="color: aquamarine;">Hi I will have an 10 lpa offer within a month</h1> -->
+    <div class="red" >Hi I am Abhishek
+        <p>Hey i will conquer</p>
+    </div>
+    <div id="green"> Hey how you doing?</div>
+     <div class="red" >Hi I am Abhishek
+        <article>
+        <p>Hey i will conquer</p>
+        </article>
+    </div>
+    <div>
+        <a href="https://www.github.com" target="_blank">Let me go to the GITHUB</a>
+        <a href="https://www.facebook.com" target="_blank">Let me go to the facebook</a>
+    </div>
+</body>
+</html>
